@@ -97,7 +97,6 @@ export ATTENTION_TYPE=longformer
 
 **Important:** Any modifications to `model.py` must be synchronized to the corresponding `model.py` file in the olmo library.
 
----
 
 ## 3. Dataset Download and Preprocessing
 
@@ -120,7 +119,6 @@ export ATTENTION_TYPE=longformer
         --processes ${NUMBER_OF_CPU_CORES_TO_USE}
     ```
 
----
 
 ## 4. Running Training
 
