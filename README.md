@@ -88,7 +88,9 @@ from olmo.SPAttention import create_sp_attention_cache, sparse_attention
 # from olmo.attention_variants import create_sp_attention_cache, sparse_attention
 ```
 
-Then set the environment variable for your chosen configuration:```bash
+Then set the environment variable for your chosen configuration:
+
+```bash
 # Choose one of the following:
 export ATTENTION_TYPE=bigbird
 export ATTENTION_TYPE=reformer
