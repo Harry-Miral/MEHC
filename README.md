@@ -8,7 +8,6 @@ This guide outlines the steps to set up the environment, prepare the dataset, an
 - **Python Version**: `3.9+` (It is best to use 3.10 or above. Although 3.9 can run, there are many incompatible uses.)
 - **Operating System**: `Linux`
 
----
 
 ## 2. Environment Setup
 
@@ -27,13 +26,12 @@ First, clone and install `OLMo`:
 ```bash
 git clone https://github.com/allenai/OLMo.git
 cd OLMo
-pip install -e .[all]
+pip install -e .
 ```
 
 Next, install specific package versions:
 ```bash
 pip install git+https://github.com/Muennighoff/megablocks.git@olmoe
-pip install -e .
 
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
 pip install ai2-olmo==0.6.0
